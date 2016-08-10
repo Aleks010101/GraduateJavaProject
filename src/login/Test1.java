@@ -1,4 +1,4 @@
-package test;
+package login;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
