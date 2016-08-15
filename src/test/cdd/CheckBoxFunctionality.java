@@ -41,7 +41,7 @@ public class CheckBoxFunctionality {
 		loginPage.typeUsername(Property.username).typePassword(Property.password);
 		homePage = loginPage.clickOnLoginButton();
 
-		message = homePage.getTextFromLoginInfoLabel();
+		message = homePage.getTextFromLogInfoLabel();
 		System.out.println(message);
 
 		assert message.contains("You are logged in as") : "You are not logged in. Test Failed.";
@@ -58,7 +58,7 @@ public class CheckBoxFunctionality {
 		loginPage.typeUsername(Property.username).typePassword(Property.password);
 		homePage = loginPage.clickOnLoginButton();
 
-		message = homePage.getTextFromLoginInfoLabel();
+		message = homePage.getTextFromLogInfoLabel();
 		System.out.println(message);
 
 		assert message.contains("You are logged in as") : "You are not logged in. Test Failed.";
@@ -85,7 +85,7 @@ public class CheckBoxFunctionality {
 			loginPage = new LoginPage(driver);
 			loginPage.typeUsername(Property.username).typePassword(Property.password);
 			homePage = loginPage.clickOnLoginButton();
-			message = homePage.getTextFromLoginInfoLabel();
+			message = homePage.getTextFromLogInfoLabel();
 			System.out.println(message);
 			assert message.contains("You are logged in as") : "You are not logged in. Test Failed.";
 			homePage.typeSearchValueIntoSearchField("career");

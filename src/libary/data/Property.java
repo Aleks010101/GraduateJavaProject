@@ -9,9 +9,6 @@ public class Property {
 	public static String passwordWrong = "IveParolaaa";
 	
 
-	// public static String username1 = "ivecluj2";
-	// public static String password2 = "IveParola2";
-
 	public static final String URL = "http://www.endavauniversity.com";
 	
 	public static String email = "ivecluj.1@endava.com";
